@@ -1136,3 +1136,11 @@ a.pure-button-primary {
         font-size: 300%;
     }
 }
+
+/*
+ * -- REFERENCE LINKS --
+ */
+ul.reference-links > li {
+  margin: 1em 0;
+  list-style: none;
+}
