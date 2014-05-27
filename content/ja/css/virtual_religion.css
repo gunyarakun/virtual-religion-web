@@ -1071,10 +1071,6 @@ a.pure-button-primary {
     color: #aaa;
 }
 
-.ribbon a {
-    color: #aaf;
-}
-
 /* This is the class used for the footer */
 .footer {
     background: #111;
@@ -1145,7 +1141,7 @@ a.pure-button-primary {
  * -- REFERENCE LINKS --
  */
 ul.reference-links > li {
-  margin: 1em 0;
+  margin: 1.5em 0;
   list-style: none;
 }
 
@@ -1164,14 +1160,26 @@ ul.reference-links > li {
 }
 
 .saying-quote .saying-source a {
-  text-decoration: none;
   color: white;
   background-color: #34495e;
-  border-radius: .6em / .6em;
-  margin: 1em;
-  padding: .8em;
+}
+
+.ribbon a {
+  color: #34495e;
+  background-color: white;
 }
 
 p {
   text-indent: 1em;
+  line-height: 3em;
+}
+
+a {
+  color: white;
+  background-color: #1f8dd6;
+
+  text-decoration: none;
+  border-radius: .6em / .6em;
+  margin: 1em;
+  padding: .8em;
 }
