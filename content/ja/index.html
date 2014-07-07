@@ -2,7 +2,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.2/pure-min.css">
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
   <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <!--[if gt IE 8]><!-->
   <link rel="stylesheet" href="./css/virtual_religion.css">
@@ -16,7 +16,6 @@
   <meta property="og:description" content="Virtual Religionはインターネット上で幸せに活動するための宗教です。">
 </head>
 <body>
-
 <div class="header">
   <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
     <a class="pure-menu-heading" href="">Virtual Religion</a>
@@ -387,10 +386,25 @@
   </div>
 
   <div class="footer l-box is-center">
-    Virtual Religion (宗教想真) by wktk, Inc.
+    Virtual Religion by wktk, Inc.
   </div>
 <!-- /content -->
 </div>
+
+<ul class="social-buttons">
+  <li>
+    <div class="fb-share-button" data-href="http://ja.virtual-religion.org/" data-type="box_count"></div>
+  <li>
+
+  <li>
+    <a href="https://twitter.com/share" class="twitter-share-button" data-via="vr_religion_ja" data-lang="ja" data-related="tasukuchan" data-hashtags="virtual_religion" data-count="vertical">ツイート</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </li>
+
+  <li>
+    <a href="http://b.hatena.ne.jp/entry/http://ja.virtual-religion.org/" class="hatena-bookmark-button" data-hatena-bookmark-title="Virtual Religion" data-hatena-bookmark-layout="vertical-balloon" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+  </li>
+</ul>
 
 <script src="http://yui.yahooapis.com/3.14.1/build/yui/yui-min.js"></script>
 <script>
@@ -412,6 +426,16 @@ YUI().use('node-base', 'node-event-delegate', function (Y) {
   ga('create', 'UA-52497233-1', 'auto');
   ga('send', 'pageview');
 </script>
+
+<!-- fb SDK -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=716922805037577&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
   </body>
 </html>

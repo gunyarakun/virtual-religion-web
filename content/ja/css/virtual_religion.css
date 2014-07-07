@@ -1183,3 +1183,22 @@ a {
   margin: 1em;
   padding: .8em;
 }
+
+.social-buttons {
+  position: fixed;
+  left:0px;
+  bottom:0px;
+  width: 100%;
+  height: 70px;
+  padding: 2px;
+  margin: 0;
+  overflow: hidden;
+  z-index: 2;
+  text-align: center;
+  background: black;
+}
+
+.social-buttons li {
+  float: center;
+  display: inline-block;
+}
