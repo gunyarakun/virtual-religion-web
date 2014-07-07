@@ -1207,3 +1207,7 @@ a {
   float: center;
   display: inline-block;
 }
+
+.social-button-facebook {
+  padding-right: 6px;
+}
