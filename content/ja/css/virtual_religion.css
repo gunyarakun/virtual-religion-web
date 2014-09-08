@@ -65,6 +65,16 @@ h2.row-head {
   background-color: #34495e;
 }
 
+h3.row-subhead {
+  font-size: 1.2em;
+  margin: 0.5em 0;
+  padding: 0.8em 0;
+  text-align: center;
+  color: white;
+  background-color: #34495e;
+}
+
+
 /* creed */
 
 .creed h3 {
