@@ -19,6 +19,16 @@ p {
   margin-top: 2em;
 }
 
+/* overview */
+.overview-items > div {
+  padding: 0.8em;
+}
+
+.overview-title {
+  font-size: 1.5em;
+  text-align: center;
+}
+
 /* ul */
 
 ul.dot-list {
