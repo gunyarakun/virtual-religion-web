@@ -16,7 +16,7 @@ p {
 }
 
 .splash-container {
-  margin-top: 2em;
+  margin: 2em 0;
 }
 
 /* overview */
@@ -27,6 +27,7 @@ p {
 .overview-title {
   font-size: 1.5em;
   text-align: center;
+  margin: 0.8em;
 }
 
 /* ul */
@@ -43,8 +44,8 @@ ul.dot-list > li {
 
 h2.row-head {
   font-size: 1.5em;
-  margin: 1.2em 0;
-  padding: 1em 0;
+  margin: 0.5em 0;
+  padding: 0.8em 0;
   text-align: center;
   color: white;
   background-color: #34495e;
@@ -54,10 +55,10 @@ h2.row-head {
 
 .creed h3 {
   font-size: 1.3em;
-  margin: 1.2em 0;
+  margin: 0.5em 0;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-  padding: 0.7em 0;
+  padding: 0.5em 0;
   text-align: center;
   color: white;
   background-color: #34495e;
@@ -154,4 +155,9 @@ p {
 
 .social-button-facebook {
   padding-right: 6px;
+}
+
+/* google ads */
+.google-ad {
+  text-align: center;
 }
