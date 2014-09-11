@@ -4,7 +4,8 @@ body {
 }
 
 p {
-  line-height: 1.5;
+  text-indent: 1em;
+  line-height: 2em;
 }
 
 /* header */
@@ -74,6 +75,10 @@ h3.row-subhead {
   background-color: #34495e;
 }
 
+/* container */
+.container p, .container ul {
+  margin: 1em 1.5em;
+}
 
 /* creed */
 
@@ -86,10 +91,6 @@ h3.row-subhead {
   text-align: center;
   color: white;
   background-color: #34495e;
-}
-
-.creed p, .creed ul {
-  margin: 1em 2em 1em;
 }
 
 /*
@@ -112,6 +113,8 @@ ul.reference-links li a {
   padding: .8em;
 
   line-height: 2em;
+
+  font-size: smaller;
 }
 
 .reference-supplement {
@@ -133,6 +136,7 @@ ul.reference-links li a {
   text-align: right;
   margin-top: 1em;
   line-height: 2em;
+  font-size: smaller;
 }
 
 .saying-quote .saying-source a {
@@ -141,18 +145,12 @@ ul.reference-links li a {
 
   text-decoration: none;
   border-radius: .6em / .6em;
-  margin: 1em;
   padding: .8em;
 }
 
 .ribbon a {
   color: #34495e;
   background-color: white;
-}
-
-p {
-  text-indent: 1em;
-  line-height: 2em;
 }
 
 /* This is the class used for the footer */
