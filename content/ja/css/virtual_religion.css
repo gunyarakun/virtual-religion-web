@@ -5,7 +5,7 @@ body {
 
 p {
   text-indent: 1em;
-  line-height: 2em;
+  line-height: 1.8em;
 }
 
 /* header */
@@ -75,11 +75,6 @@ h3.row-subhead {
   background-color: #34495e;
 }
 
-/* container */
-.container p, .container ul {
-  margin: 1em 1.5em;
-}
-
 /* creed */
 
 .creed h3 {
@@ -91,6 +86,26 @@ h3.row-subhead {
   text-align: center;
   color: white;
   background-color: #34495e;
+}
+
+.creed p, .creed ul {
+  margin: 1em 1.5em;
+}
+
+.creed li {
+  margin: 0.9em 0;
+}
+
+/* ceremony */
+
+.ceremony p {
+  margin: 1em 1.5em;
+}
+
+/* originator */
+
+.originator p {
+  margin: 1em 1.5em;
 }
 
 /*
