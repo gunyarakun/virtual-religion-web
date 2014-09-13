@@ -17,13 +17,7 @@ a:hover {
   background-color: #34495e;
 }
 
-/* header */
-.header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 3em;
-}
+/* splash */
 
 .splash-container {
   margin: 2em 0;
@@ -69,7 +63,7 @@ ul.dot-list > li {
 h2.row-head {
   font-size: 1.5em;
   margin: 0.5em 0;
-  padding: 0.8em 0;
+  padding: 0.5em 0;
   text-align: center;
   color: white;
   background-color: #34495e;
@@ -78,7 +72,7 @@ h2.row-head {
 h3.row-subhead {
   font-size: 1.2em;
   margin: 0.5em 0;
-  padding: 0.8em 0;
+  padding: 0.4em 0;
   text-align: center;
   color: white;
   background-color: #34495e;
@@ -91,7 +85,7 @@ h3.row-subhead {
   margin: 0.5em 0;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-  padding: 0.5em 0;
+  padding: 0.4em 0;
   text-align: center;
   color: white;
   background-color: #34495e;
