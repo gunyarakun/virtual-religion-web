@@ -8,6 +8,15 @@ p {
   line-height: 1.8em;
 }
 
+a {
+  color: #34495e;
+}
+
+a:hover {
+  color: white;
+  background-color: #34495e;
+}
+
 /* header */
 .header {
   position: absolute;
