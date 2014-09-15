@@ -7,7 +7,7 @@
 
   <link rel="stylesheet" media="all" href="css/style.css" />
   <script src="js/respond.min.js"></script>
-  <link rel="stylesheet" href="./css/virtual_religion.css">
+  <link rel="stylesheet" href="css/virtual_religion.css">
 
   <title>ネット生活を幸せにする宗教 Virtual Religion</title>
 
@@ -586,14 +586,23 @@
 </script>
 
 <!-- fb SDK -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=716922805037577&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '716922805037577',
+      xfbml      : true,
+      version    : 'v2.1'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
 
   </body>
 </html>
