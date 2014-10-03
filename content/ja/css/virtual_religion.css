@@ -1,0 +1,217 @@
+body {
+  color: #666666;
+  -webkit-text-size-adjust: 100%;
+
+  font-family: Arial,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
+
+p {
+  text-indent: 1em;
+  line-height: 1.8em;
+}
+
+a {
+  color: #34495e;
+}
+
+a:hover {
+  color: white;
+  background-color: #34495e;
+}
+
+/* splash */
+
+.splash-container {
+  margin: 2em 0;
+}
+
+.splash-head {
+  font-size: 1.8em;
+  margin: 0.5em 0;
+  padding: 0.8em 0;
+  text-align: center;
+  color: white;
+  background-color: #34495e;
+}
+
+.splash-subhead {
+  margin: 1em 0;
+  text-align: center;
+}
+
+/* overview */
+.overview-items > div {
+  padding: 0.8em;
+}
+
+.overview-title {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0.8em;
+}
+
+/* ul */
+
+ul.dot-list {
+  margin: 1em 1.5em;
+
+}
+
+ul.dot-list > li {
+  list-style: disc inside;
+  line-height: 1.5em;
+}
+
+h2.row-head {
+  font-size: 1.5em;
+  margin: 0.5em 0;
+  padding: 0.5em 0;
+  text-align: center;
+  color: white;
+  background-color: #34495e;
+}
+
+h3.row-subhead {
+  font-size: 1.2em;
+  margin: 0.4em 0;
+  padding: 0.3em 0;
+  text-align: center;
+  color: white;
+  background-color: #34495e;
+}
+
+/* creed */
+
+.creed h3 {
+  font-size: 1.3em;
+  margin: 0.5em 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 0.4em 0;
+  text-align: center;
+  color: white;
+  background-color: #34495e;
+}
+
+.creed p, .creed ul {
+  margin: 1em 1.5em;
+}
+
+.creed li {
+  margin: 0.9em 0;
+}
+
+/* ceremony */
+
+.ceremony p {
+  margin: 1em 1.5em;
+}
+
+/* originator */
+
+.originator p {
+  margin: 1em 1.5em;
+}
+
+/*
+ * -- REFERENCE LINKS --
+ */
+ul.reference-links li {
+  margin: 1.5em 0;
+  list-style: none;
+  line-height: 1em;
+  text-align: center;
+}
+
+ul.reference-links li a {
+  color: white;
+  background-color: #34495e;
+
+  text-decoration: none;
+  border-radius: .6em / .6em;
+  margin: 1em;
+  padding: .8em;
+
+  line-height: 2em;
+
+  font-size: smaller;
+}
+
+.reference-supplement {
+  font-size: 0.5em;
+}
+
+.saying-quote {
+  border: .4em solid #34495e;
+  border-radius: 1em / 1em;
+  margin: 1em;
+  padding: .8em;
+}
+
+.saying-quote blockquote {
+  line-height: 1.5em;
+}
+
+.saying-quote .saying-source {
+  text-align: right;
+  margin-top: 1em;
+  line-height: 2em;
+  font-size: smaller;
+}
+
+.saying-quote .saying-source a {
+  color: white;
+  background-color: #34495e;
+
+  text-decoration: none;
+  border-radius: .6em / .6em;
+  padding: .8em;
+}
+
+.ribbon a {
+  color: #34495e;
+  background-color: white;
+}
+
+/* This is the class used for the footer */
+.footer {
+  height: 68px;
+}
+
+/*
+ * -- SOCIAL BUTTONS --
+ */
+.social-buttons {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+
+  padding: 2px;
+  margin: 0;
+
+  overflow: hidden;
+  z-index: 2;
+
+  text-align: center;
+  background: #111;
+}
+
+.social-buttons li {
+  float: center;
+  display: inline-block;
+}
+
+.social-button-facebook {
+  padding-right: 6px;
+}
+
+/* google ads */
+.google-ad {
+  text-align: center;
+}
+
+/* common */
+.center {
+  text-align: center;
+}
